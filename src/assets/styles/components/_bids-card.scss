@@ -1,0 +1,56 @@
+.bids {
+  &__item {
+    background-color: $gray-500;
+    border-radius: 40px;
+    padding: 24px 22px 35px;
+  }
+  &__photo {
+    max-width: 234px;
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 22px;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    &__text{
+      h3 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        margin-bottom: 10px;
+      }
+      span {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+      }
+    }
+    &__photo {
+      
+      img {
+        position: absolute;
+        max-width: 49px;
+        width: 100%;
+        border-radius: 24.5px;
+      }
+      img:nth-child(1) {
+        top: 0;
+        right: 45px;
+        z-index: 2;
+      }  
+      img:nth-child(2) {
+        top: 0;
+        right: 25px;
+        z-index: 1;
+      }
+      img:nth-child(3) {
+        top: 0;
+        right: 0;
+      }
+    }
+  }
+}

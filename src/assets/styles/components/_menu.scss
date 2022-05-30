@@ -1,0 +1,45 @@
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  background: linear-gradient(93.8deg, #FF00AE 1.02%, #FF0066 92.85%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding-bottom: 29px;
+}
+
+.menu {
+  &__wrapper {
+    padding: 100px 0 105px;
+    display: flex;
+  }
+
+  &__block {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 60px;
+    max-width: 663px;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 35px;
+    }
+  }
+  &__buttons {
+    padding: 64px 0 82px;
+    display: flex;
+    gap: 21px;
+  }
+
+  &__img {
+    position: relative;
+    img {
+      position: absolute;
+      transform: scale(.9);
+    }
+  }
+
+}

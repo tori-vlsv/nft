@@ -1,0 +1,12 @@
+mixin bid(photo, title, value, buyer1, buyer2, buyer3)
+  .bids__item.reveal
+    .bids__photo  
+      img(src=""+photo, alt="")
+    .bids__content
+      .bids__content__text
+        h3= title 
+        span= value
+      .bids__content__photo
+        img(src=""+buyer1, alt="")
+        img(src=""+buyer2, alt="")
+        img(src=""+buyer3, alt="")

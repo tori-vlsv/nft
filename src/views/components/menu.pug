@@ -1,0 +1,15 @@
+include ../mixins/button
+section.menu 
+  .wrapper
+    .menu__wrapper
+      .menu__block
+        h1.reveal Discover, collect, and sell extraordinary NFTs
+        p.reveal  Explore the upcoming NFT projects, get all the info you need to help you decide if that is the right project for you. Don’t forget to check the additional info in the project page, including relevant tips per project.
+        .menu__buttons.reveal 
+          +button('Create', '')  
+          +button('Connect', 'button__transparent') 
+        a(href="#").menu__play.reveal  
+          <svg width="69" height="68" viewBox="0 0 69 68" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="0.5" width="68" height="68" rx="34" fill="black"/><path d="M44 30.1699C47.3333 32.0944 47.3333 36.9056 44 38.8301L32.75 45.3253C29.4167 47.2498 25.25 44.8442 25.25 40.9952V28.0048C25.25 24.1558 29.4167 21.7502 32.75 23.6747L44 30.1699Z" fill="white"/></svg>
+          p Learn more about NFT ART
+      .menu__img.reveal 
+        img(src="assets/images/phone.png", alt="")

@@ -1,0 +1,16 @@
+include ../mixins/bid
+section.bids
+  .wrapper 
+    .bids__wrapper
+      h2.reveal  Hot Bids
+      p.reveal  Non-Fungible Tokens (NFTs) are virtual tokens minted on the blockchain for digital scarcity, security, and authenticity. 
+      .bids__items.reveal 
+        +bid('assets/images/bid0.png', 'David Art', '1.25 ETH', 'assets/images/buyer1.png', 'assets/images/buyer2.png', 'assets/images/buyer3.png')
+        +bid('assets/images/bid1.png', 'David Art', '1.25 ETH', 'assets/images/buyer1.png', 'assets/images/buyer2.png', 'assets/images/buyer3.png')
+        +bid('assets/images/bid2.png', 'David Art', '1.25 ETH', 'assets/images/buyer1.png', 'assets/images/buyer2.png', 'assets/images/buyer3.png')
+        +bid('assets/images/bid3.png', 'David Art', '1.25 ETH', 'assets/images/buyer1.png', 'assets/images/buyer2.png', 'assets/images/buyer3.png')
+        +bid('assets/images/bid4.png', 'David Art', '1.25 ETH', 'assets/images/buyer1.png', 'assets/images/buyer2.png', 'assets/images/buyer3.png')
+        +bid('assets/images/bid5.png', 'David Art', '1.25 ETH', 'assets/images/buyer1.png', 'assets/images/buyer2.png', 'assets/images/buyer3.png')
+        +bid('assets/images/bid6.png', 'David Art', '1.25 ETH', 'assets/images/buyer1.png', 'assets/images/buyer2.png', 'assets/images/buyer3.png')
+        +bid('assets/images/bid7.png', 'David Art', '1.25 ETH', 'assets/images/buyer1.png', 'assets/images/buyer2.png', 'assets/images/buyer3.png')
+      +button('Load More', 'button__transparent button__wide reveal ') 

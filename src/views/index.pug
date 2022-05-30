@@ -1,0 +1,15 @@
+extends ./layouts/master
+
+block title
+  title NFT Art | WebSITE
+
+block basicSeo
+  meta(name='description' content='Index page')
+  meta(name='keywords', content='index, page')
+
+block content
+
+  main
+    include /components/menu
+    include /components/sellers
+    include /components/bids
